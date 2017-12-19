@@ -1,0 +1,27 @@
+Networking - JSON Parsing
+Recycler view - launching Intents
+Fragment - send data between fragments
+
+
+Recycler View
+ - model
+ - viewholder
+ -adapter
+ -packages (to organize your files)
+
+ -Models are most necessary for mapping Json to data classes, can build a recycler view that contains strings.
+ get recylcer view dependencies.
+ //cmd + E lets you go through your files, cmd + w Closes the tab
+
+
+ Fragments -
+ support fragment - backwards compatible works with older api's ( v4) have to make sure every other fragment is support
+ regular fragment only workd up util api 19
+ on Attach - attach to activity
+ onCreate - creates fragment
+ onCreateView - inflates layout views
+ onDestroy View
+ onDetach - removes it from the activity
+
+ fragment has mind of its own, it can be at any state irrelevant to state of activity. Can create bugs from fragment lifecylce
+
